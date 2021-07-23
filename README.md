@@ -1,2 +1,2 @@
 # CRUD
-Full stack CRUD application built on the MERN stack.
+Full stack CRUD (Create, Read, Update, Delete) application built on the MERN stack.

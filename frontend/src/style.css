@@ -1,0 +1,12 @@
+#display-block {
+  display: block;
+}
+#display-none {
+  display: none;
+}
+#view {
+  color: rgb(0, 180, 0);
+}
+#delete {
+  color: red;
+}

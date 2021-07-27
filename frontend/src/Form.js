@@ -140,7 +140,13 @@ const Form = () => {
           <label htmlFor="phone">Contact Number</label>
           <input
             type="text"
-            className="form-control"
+            className="form-control inline1"
+            placeholder="Country code"
+            id="countryCode"
+          />
+          <input
+            type="text"
+            className="form-control inline2"
             placeholder="Enter contact number"
             id="phone"
             value={phone}

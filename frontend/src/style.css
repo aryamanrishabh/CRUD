@@ -10,3 +10,13 @@
 #delete {
   color: red;
 }
+#countryCode {
+  width: 11%;
+}
+#phone {
+  display: inline-block;
+  position: relative;
+  bottom: 38px;
+  width: 87%;
+  margin-left: 13%;
+}

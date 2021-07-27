@@ -20,6 +20,7 @@ router.post("/add-user", (req, res) => {
       });
 
     const { id, firstName, lastName, email, contactNumber } = req.body;
+
     const _user = new User({
       id,
       firstName,
@@ -53,7 +54,7 @@ router.put("/update-user", async (req, res) => {
       updatedUser.email = email;
       updatedUser.contactNumber = contactNumber;
       updatedUser.save();
-      res.send("update");
+      res.send("user info updated!");
     });
   } catch (err) {
     console.log(err);
